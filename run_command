@@ -1,0 +1,2 @@
+g++ src/* -I./raylib/include -I./include -L./raylib/lib -lraylib -lopengl32 -lgdi32 -lwinmm -lshell32 -luser32 -o ./bin/clock.exe
+.\bin\clock.exe
